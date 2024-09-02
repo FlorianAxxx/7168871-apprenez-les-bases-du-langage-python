@@ -1,1 +1,3 @@
-# Écrivez votre code ici !
+with open("index.html", 'r') as file:
+    soup = BeautifulSoup(file, 'html.parser')
+  
